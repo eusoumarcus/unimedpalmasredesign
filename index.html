@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+<nav class="navbar ">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://bulma.io">
+        <img src="https://unimedpalmas.coop.br/img/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="52">
+      </a>
+  
+      <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+        <span class="icon" style="color: #333;">
+          <i class="fa fa-github"></i>
+        </span>
+      </a>
+  
+      <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+        <span class="icon" style="color: #55acee;">
+          <i class="fa fa-twitter"></i>
+        </span>
+      </a>
+  
+      <div class="navbar-burger burger" data-target="navMenubd-example">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  
+    <div id="navMenubd-example" class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link  is-active" href="/documentation/overview/start/">
+            Docs
+          </a>
+          <div class="navbar-dropdown ">
+            <a class="navbar-item " href="/documentation/overview/start/">
+              Overview
+            </a>
+            <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+              Modifiers
+            </a>
+            <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
+              Columns
+            </a>
+            <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">
+              Layoutd
+            </a>
+            <a class="navbar-item " href="http://bulma.io/documentation/form/general/">
+              Form
+            </a>
+            <a class="navbar-item " href="http://bulma.io/documentation/elements/box/">
+              Elements
+            </a>
+  
+            <a class="navbar-item is-active" href="http://bulma.io/documentation/components/breadcrumb/">
+              Components
+            </a>
+  
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              <div>
+                <p class="is-size-6-desktop">
+                  <strong class="has-text-info">0.5.1</strong>
+                </p>
+  
+                <small>
+                  <a class="bd-view-all-versions" href="/versions">Visdew all versions</a>
+                </small>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable is-mega">
+          <div class="navbar-link flex">
+            Blog <span class="tag is-info ml-2">Hover here<span>
+          </div>
+          <div id="blogDropdown" class="navbar-dropdown " data-style="width: 18rem;">
+            <div class="container is-fluid">
+              <div class="columns">
+                <div class="column">
+                  <h1 class="title is-6 is-mega-menu-title">Sub Menu Title</h1>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="column">
+                  <h1 class="title is-6 is-mega-menu-title">Sub Menu Title</h1>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+  
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                  <a class="navbar-item " href="/documentation/overview/start/">
+                    Overview
+                  </a>
+                  <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+                    Modifiers
+                  </a>
+                  <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
+                    Columns
+                  </a>
+                </div>
+                <div class="column">
+                  <h1 class="title is-6 is-mega-menu-title">Sub Menu Title</h1>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+                  <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                    <div class="navbar-content">
+                      <p>
+                        <small class="has-text-info">03 Aug 2017</small>
+                      </p>
+                      <p>New feature: list of tags</p>
+                    </div>
+                  </a>
+  
+                </div>
+                <div class="column">
+                  <h1 class="title is-6 is-mega-menu-title">Sub Menu Title</h1>
+                  <a class="navbar-item " href="/documentation/overview/start/">
+                    Overview
+                  </a>
+                  <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+                    Modifiers
+                  </a>
+                  <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
+                    Columns
+                  </a>
+                  <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">
+                    Layout
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              <div class="navbar-content">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <strong>Stay up to date!</strong>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                      <a class="button bd-is-rss is-small" href="http://bulma.io/atom.xml">
+                        <span class="icon is-small">
+                          <i class="fa fa-rss"></i>
+                        </span>
+                        <span>Subscribe</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">
+            More
+          </div>
+          <div id="moreDropdown" class="navbar-dropdown ">
+            <a class="navbar-item " href="http://bulma.io/extensions/">
+              <div class="level is-mobile">
+                <div class="level-left">
+                  <div class="level-item">
+                    <p>
+                      <strong>Extensions</strong>
+                      <br>
+                      <small>Side projects to enhance Bulma</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="level-right">
+                  <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fa fa-plug"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="navbar-item " href="http://bulma.io/expo/">
+          <span class="bd-emoji">🎨</span> &nbsp;Expo
+        </a>
+        <a class="navbar-item " href="http://bulma.io/love/">
+          <span class="bd-emoji">❤️</span> &nbsp;Love
+        </a>
+      </div>
+  
+      <div class="navbar-end">
+        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/jgthms/bulma" target="_blank">
+          <span class="icon" style="color: #333;">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+          <span class="icon" style="color: #55acee;">
+            <i class="fa fa-twitter"></i>
+          </span>
+        </a>
+        <div class="navbar-item">
+          <div class="field is-grouped">
+            <p class="control">
+              <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&hashtags=bulmaio&url=http://bulma.io&via=jgthms">
+                <span class="icon">
+                  <i class="fa fa-twitter"></i>
+                </span>
+                <span>
+                  Tweet
+                </span>
+              </a>
+  
+            </p>
+            <p class="control">
+              <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.5.1.zip">
+                <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span>
+                <span>Download</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+
+        <div class="columns">
+            <div class="column is-one-fifth flex-fit">
+              <i class="fa-brands fa-whatsapp fa-10x"></i>
+            </div>
+            <div class="column">
+                <h1 class="title">
+                    Coronavírus
+                  </h1> 
+                  <h1 class="title">
+                    Precisa de atendimento? Evite sair de casa!
+                    <p>
+                      Entre em contato pelo nosso Whatsapp. 
+                    </p>        
+                  </h1>
+                  <h2 class="subtitle">
+                      Clique aqui!
+                  </h2>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+  <section class="section banners">
+    <div class="columns">
+        <div class="column slidertemp br-20">
+            <img src="https://unimedpalmas.coop.br/img/BannerPrincipal/d19cd5232e3a463fbc52328394d2621f.jpg" class="br-20" alt="">
+        </div>
+        <div class="column is-one-third">
+            <div class="column">
+                <h2>Central de Atendimento</h2>
+                <p>
+                    (63) 3025-5800 - Telefone
+(63) 3025-5810 - Whatsapp
+De segunda a sexta das 07:30 às 18:00
+
+E-mail: atendimento@unimedpalmas.com.br
+                </p>
+            </div>
+            <div class="column">
+                <h2>Central de Vendas</h2>
+                <p>
+                    (63) 3215-4090
+De segunda a sexta das 08:00 às 18:00
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="categories">
+      <div class="columns">
+          <div class="column">
+            <div class="column is-one-fifth">
+                CANAL DO BENEFICIÁRIO
+            </div>
+            <div class="column is-one-fifth">
+                GUIA MÉDICO
+            </div>
+            <div class="column is-one-fifth">
+                BOLETO
+            </div>
+            <div class="column is-one-fifth">
+                SOLICITAR REEMBOLSO
+            </div>
+            <div class="columnis-one-fifth">
+                CARTÃO PROVISÓRIO
+            </div>
+            <div class="column is-full">
+                CANCELAMENTO CONTRATO
+            </div>
+          </div>
+          <div class="column">
+            <div class="column">
+                DEMONSTRATIVOS CONTÁBEIS 
+            </div>
+            <div class="column">
+                IMPOSTO DE RENDA
+            </div>
+          </div>
+          <div class="column">
+            <div class="column">
+                AUTORIZADOR
+            </div>
+            <div class="column">
+                PORTAL WEB
+            </div>
+            <div class="column">
+                IMPRIMIR GUIA
+            </div>
+          </div>
+      </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4">
+            <div class="notification is-light is-link">Hi! <br />I recently launcheddsds this project focused on developers. I hope you will find it useful.</div>
+
+            <div class="block">
+                This text is within a <strong>block</strong>.
+              </div>
+              <div class="block">
+                This text is within a <strong>second block</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+              </div>
+              <div class="block">
+                This text is within a <strong>third block</strong>. This block has no margin at the bottom.
+              </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-fullwidth">
+                <img src="https://codedmails.com/images/banner-codedemails.png" alt="Coded Mails">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Codedmails Free</p>
+              <p class="subtitle is-6"><a target="_blank" href="https://twitter.com/codedmails">@codedmails</a></p>
+  
+              <div class="content">
+  
+                <p>Ready to use <strong>60+ HTML email templates and themes </strong>for startups and developers for free.</p>
+              </div>
+  
+            </div>
+
+          
+            <div id="update-modal" class="modal">
+              <div class="modal-background update-modal-close"></div>
+              <div class="modal-card">
+                <header class="modal-card-head">
+                  <p class="modal-card-title">Atenção!</p>
+                  <button class="delete update-modal-close" aria-label="close"></button>
+                </header>
+                <section class="">
+                  <img src="https://unimedpalmas.coop.br/images/Boletos_falsos.jpeg" alt="" srcset="">
+                </section>
+                
+              </div>
+            </div>
+              
+
+            <footer class="card-footer">
+
+              
+
+            </footer>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/scripts.js"></script>
+  </footer>
+
+</html>
